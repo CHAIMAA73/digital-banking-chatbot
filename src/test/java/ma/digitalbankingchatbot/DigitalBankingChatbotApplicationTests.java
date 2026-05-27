@@ -1,4 +1,4 @@
-package ma.digitalbankingchatbot.digitalbankingchatbot;
+package ma.digitalbankingchatbot;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
