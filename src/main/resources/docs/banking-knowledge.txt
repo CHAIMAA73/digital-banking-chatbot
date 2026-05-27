@@ -1,0 +1,42 @@
+=== DIGITAL BANKING - BASE DE CONNAISSANCE ===
+
+--- TYPES DE COMPTES ---
+Compte Courant (CurrentAccount) :
+- Compte bancaire standard pour les transactions quotidiennes.
+- Possède un découvert autorisé (overDraft).
+- Permet les dépôts et retraits fréquents.
+- Idéal pour la gestion des dépenses courantes.
+
+Compte Épargne (SavingAccount) :
+- Compte conçu pour épargner de l'argent.
+- Génère des intérêts sur le solde (interestRate).
+- Moins de transactions que le compte courant.
+- Recommandé pour les objectifs financiers à long terme.
+
+--- OPÉRATIONS ---
+Débit (DEBIT) : Retrait d'argent du compte. Réduit le solde.
+Crédit (CREDIT) : Dépôt d'argent sur le compte. Augmente le solde.
+Chaque opération enregistre : la date, le montant, le type, et une description.
+
+--- STATUTS DE COMPTE ---
+CREATED : Compte nouvellement créé.
+ACTIVATED : Compte actif et opérationnel.
+SUSPENDED : Compte temporairement suspendu.
+
+--- SERVICES DISPONIBLES ---
+- Consultation du solde en temps réel
+- Historique complet des transactions
+- Gestion des clients (ajout, modification, suppression)
+- Virement entre comptes
+- Recherche de clients par nom
+- Administration des comptes bancaires
+
+--- INFORMATIONS GÉNÉRALES ---
+Digital Banking est une application de gestion bancaire moderne.
+Elle permet aux banquiers de gérer efficacement les comptes de leurs clients.
+L'application est sécurisée avec Spring Security et JWT.
+Toutes les opérations sont tracées avec l'identifiant de l'utilisateur.
+
+--- CONTACT ET SUPPORT ---
+Pour toute question, contactez le support bancaire.
+Les horaires de service sont du lundi au vendredi, 9h-17h.
