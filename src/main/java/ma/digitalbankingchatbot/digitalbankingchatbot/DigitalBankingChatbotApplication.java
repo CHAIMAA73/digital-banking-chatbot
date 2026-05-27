@@ -1,0 +1,13 @@
+package ma.digitalbankingchatbot.digitalbankingchatbot;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class DigitalBankingChatbotApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(DigitalBankingChatbotApplication.class, args);
+    }
+
+}
